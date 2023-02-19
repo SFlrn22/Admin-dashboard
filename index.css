@@ -264,6 +264,40 @@ button:active {
     cursor: grab;
 }
 
-.right-content {
-    
+.right-content-top-h2 {
+    padding-top: 25px;
+    color: rgb(75, 68, 83);
+}
+
+.right-content-bot-h2 {
+    padding-top: 35px;
+    color: rgb(75, 68, 83);
+}
+
+.top-card {
+    background-color: rgba(217, 238, 249, 1);
+    margin-top: 15px;
+    width: 300px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 25px;
+    color: rgb(75, 68, 83);
+}
+
+.bot-card {
+    background-color: rgba(217, 238, 249, 1);
+    margin-top: 15px;
+    width: 300px;
+    height: 280px;
+    color: rgb(75, 68, 83);
+}
+
+.announcement-card h4 {
+    margin-bottom: 5px;
+}
+
+hr {
+    border-top: 2px solid rgba(119, 52, 226, 1);
 }
