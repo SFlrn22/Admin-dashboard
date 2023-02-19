@@ -30,6 +30,8 @@ body {
     background-color: rgba(184, 223, 244, 1);
     box-shadow:rgba(14, 30, 37, 0.32) 0px 2px 15px 0px inset;  
     grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 /* SIDEBAR */
@@ -205,4 +207,63 @@ button:hover {
 
 button:active {
     background-color: rgba(67, 20, 143, 0.4);
+}
+
+/* CONTENT */
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content-h2 { 
+    padding-top: 25px;
+    padding-left: 75px;
+    color: rgb(75, 68, 83);
+}
+
+.card-wrapper {
+    padding-top: 15px;
+    padding-left: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.card {
+    background-color: rgba(217, 238, 249, 1);
+    height: 200px;
+    width: 450px;
+    border-left: 5px solid rgba(119, 52, 226, 1);
+    color: rgb(75, 68, 83);
+}
+
+.card-content {
+    padding: 30px 35px 15px 35px;
+}
+
+.card-content h3 {
+    padding-bottom: 5px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-icon {
+    fill: rgb(75, 68, 83);
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.card-icon:hover {
+    fill: rgba(75, 68, 83, 0.4);
+    cursor: grab;
+}
+
+.right-content {
+    
 }
