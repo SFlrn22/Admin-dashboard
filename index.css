@@ -237,6 +237,9 @@ button:active {
     width: 450px;
     border-left: 5px solid rgba(119, 52, 226, 1);
     color: rgb(75, 68, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-content {
@@ -248,8 +251,10 @@ button:active {
 }
 
 .card-icons {
+    align-self: flex-end;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 15px;
 }
 
 .card-icon {
@@ -292,6 +297,10 @@ button:active {
     width: 300px;
     height: 280px;
     color: rgb(75, 68, 83);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(75, 68, 83);
 }
 
 .announcement-card h4 {
@@ -300,4 +309,26 @@ button:active {
 
 hr {
     border-top: 2px solid rgba(119, 52, 226, 1);
+}
+
+.first {
+    padding-top: 10px;
+}
+
+.trend-card {
+    padding-left: 30px;
+    display: flex;
+}
+
+.trend-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.trend-card-text {
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
